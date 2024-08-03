@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+}       
+
+table, th, td {
+    border: 2px solid black;
+    align-content: center;
+  }
+
+th, td {
+    padding: 5px;
+  }
+
+#navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    margin-right: 20px;
+}
+
+.logout-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+
+.nav-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.form-section {
+    display: none;
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: green; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-danger{
+    background-color: red; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="date"],input[type="number"],input[type="password"], input[type="time"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navbar-content-padded {
+    padding: 2px;
+}
+
+.center_align{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.drop_down{
+    padding-top: 10px;
+}
+
+.container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-content: center;
+
+} 
+p {
+  font-weight: bolder;
+}
+
+.button-container{
+    margin-top: 10px;
+    margin-left: 5px;
+}
